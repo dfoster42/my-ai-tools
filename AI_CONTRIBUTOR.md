@@ -10,3 +10,4 @@ Succinct only. No noise.
 4. **Action**: Tool use > narration. Act, don't explain.
 5. **Rigor**: Technical accuracy mandatory.
 6. **Efficiency**: Reuse scripts + skills.
+7. **Privacy**: No personal/sensitive info (keys, credentials, PII).
