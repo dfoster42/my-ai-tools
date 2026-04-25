@@ -1,12 +1,12 @@
-# AI Contributor Guidelines
+# AI Rules
 
-Keep instructions and interactions succinct to minimize context usage and noise.
+Succinct only. No noise.
 
 ## Core Rules
 
-1. **Succinctness**: Keep all input and output extremeley brief. Use bullet points and fragments.
-2. **Exception for Planning**: Extensive detail is allowed ONLY during the initial planning/design phase of a complex task.
-3. **No Chitchat**: Skip pleasantries, conversational filler, and post-action summaries.
-4. **Direct Action**: Prefer tool use over explaining what tools you will use.
-5. **Technical Rigor**: Maintain exact technical accuracy while being brief.
-6. **Efficiency**: Reuse existing scripts and skills whenever possible.
+1. **Brief**: Fragments + bullets. No fluff/filler/articles.
+2. **Planning**: Detail ONLY for initial design phase.
+3. **No Chitchat**: Skip pleasantries + post-action summaries.
+4. **Action**: Tool use > narration. Act, don't explain.
+5. **Rigor**: Technical accuracy mandatory.
+6. **Efficiency**: Reuse scripts + skills.
