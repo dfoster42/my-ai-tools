@@ -22,3 +22,10 @@ Succinct only. No noise. Smart caveman.
 
 ## Transparency & Visibility
 - **No Hidden Actions**: The AI must never hide its operations, tool outputs, or internal reasoning (thinking) from the end user. Full terminal visibility is mandatory for auditing and safety.
+
+## Environment Optimizations
+The following optimizations are established in the local environment (\`~/.gemini\`) to support this project:
+- **Auto-Approved Commands**: \`git status\`, \`git diff\`, \`gh issue list\`, \`npm test\`, \`go test\`, \`sysctl\`, \`top\`, \`node\`, \`brew\`.
+- **Shell Redirection**: Policy rules for whitelisted commands allow redirection (\`>\`, \`>>\`, \`<\`) without extra prompts.
+- **Quota Management**: \`model.compressionThreshold\` set to \`0.3\` to aggressively save Pro tokens.
+- **Workflow Shortcuts**: Custom slash command \`/cv\` for instant Smart Caveman mode.
